@@ -1,49 +1,48 @@
-
-body{
-font-family: 'Tahoma';
-margin:0;
-background:#f2f6f8;
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f8;
 }
-.navbar{
-display:flex;
-align-items:center;
-justify-content:space-between;
-background:#ffffff;
-padding:10px 20px;
-box-shadow:0 2px 5px rgba(0,0,0,0.1);
+header {
+  background: #2e86de;
+  color: white;
+  padding: 30px;
+  text-align: center;
 }
-.navbar ul{
-list-style:none;
-display:flex;
-gap:15px;
+nav {
+  background: #1e3799;
+  text-align: center;
+  padding: 10px;
 }
-.navbar a{
-text-decoration:none;
-color:#333;
-font-weight:bold;
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
 }
-.logo{width:60px;}
-.hero{
-background:#e63946;
-color:white;
-padding:60px 20px;
-text-align:center;
+section {
+  padding: 30px;
+  text-align: center;
 }
-section{
-background:white;
-margin:20px;
-padding:20px;
-border-radius:10px;
-box-shadow:0 2px 5px rgba(0,0,0,0.1);
-text-align:center;
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
-.gallery{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
+.card {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
 }
-.gallery img{
-width:220px;
-margin:10px;
-border-radius:12px;
+.gallery img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
 }
+footer {
+  background: #1e3799;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  }
